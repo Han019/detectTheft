@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> hsh019's Blog! </title>
+    </head>
+    <body>
+        <div>
+            <h1><a href=""> hsh019's blog </a></h1>
+        </div>
+{% block content %}    
+        {% for post in posts %}
+        <div>
+            <p> published:{{post.published_date}}</p>
+            <h1><a href="">{{post.title}}</a></h1>
+            <p>{{post.text|linebreaksbr}}</p>
+            <!--blog image-->
+            <img src="{{post.image.url}}" class="rounded-image-list" alt ="{{post.title}}">
+        </div>
+    {% endfor %}
+{% endblock %}
+    </body>
+
+
+</html>

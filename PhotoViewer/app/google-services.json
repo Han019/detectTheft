@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "880387178026",
+    "project_id": "package-ea74e",
+    "storage_bucket": "package-ea74e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880387178026:android:6a4cd1f5a6cb6617bd4d53",
+        "android_client_info": {
+          "package_name": "com.example.photoblog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNIEBHBVxgIzuDtKE01rm71WNetlHAFkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
