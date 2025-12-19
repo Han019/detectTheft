@@ -44,7 +44,7 @@ class blogImage(viewsets.ModelViewSet):
         # 이미지 URL 만들기 (에뮬레이터: 10.0.2.2 / 실제폰: 서버IP)
         image_url = f"http://10.0.2.2:8000{instance.image.url}" if instance.image else None
 
-        target_token = os.environ.get('target_token')#"eeT5sTQ6SgSxU2tEmvrFs8:APA91bEvw2HqaSWEsyEBqoGRpGXgViZ4uZYbzL_amUnaz15brpb1Y2MxitMCKxZ3PkLEgmffirUiPfgN6pCOCxRJKcHJ8-2A3BVeRZ3GV2bBpjYxJZmAot4"
+        target_token = "eeT5sTQ6SgSxU2tEmvrFs8:APA91bEvw2HqaSWEsyEBqoGRpGXgViZ4uZYbzL_amUnaz15brpb1Y2MxitMCKxZ3PkLEgmffirUiPfgN6pCOCxRJKcHJ8-2A3BVeRZ3GV2bBpjYxJZmAot4"
         
         if target_token:
             try:
